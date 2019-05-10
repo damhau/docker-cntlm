@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:sid
 MAINTAINER Damien Hauser <damien@dhconsulting.ch>
 RUN apt-get update -qq && apt-get install -y -qq gcc make
 ADD scripts/init_container.sh /usr/local/sbin/init_container.sh
