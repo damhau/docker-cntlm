@@ -51,10 +51,11 @@ fi
 
 if [ -d /usr/local/src/cntlm-0.92.3/ ]
 then
+    echo "Running configure, make and make install."
     cd /usr/local/src/cntlm-0.92.3/
-    ./configure
-    make
-    make install
+    ./configure  > /dev/null 2>&1
+    make > /dev/null 2>&1
+    make install > /dev/null 2>&1
 fi
 
 # Start cNTLM in foreground
