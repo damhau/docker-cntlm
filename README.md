@@ -1,3 +1,9 @@
+# Introduction
+
+This repo is a form from https://github.com/jaschac/docker-cntlm
+The Dockerfile was updated to use sid and the script changed to send the output of the configure,make and make install to nul.
+
+
 # jaschac/cntlm
 #### Table of Contents
 1. [Overview](#overview)
